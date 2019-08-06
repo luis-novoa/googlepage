@@ -3,6 +3,15 @@ html {
     width: 100%;
 }
 
+.a {
+    display: inline-block;
+    width: 49%;
+}
+
+#b {
+    float: right;
+}
+
 .left {
     padding-left: 0;
     float:left;
@@ -11,6 +20,7 @@ html {
 
 .grid {
     display: grid;
+    grid-template-rows: 1fr 34.5fr 1fr 1fr;
 }
 
 .middle {
