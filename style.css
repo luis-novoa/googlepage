@@ -1,0 +1,32 @@
+.left {
+    padding-left: 0;
+    float:left;
+}
+
+.middle {
+    display: inline-block;
+    width: 100%;
+    padding: 10% 30%;
+}
+
+.right {
+    float: right;
+}
+
+.upper {
+    float: right; 
+}
+
+footer {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+ul {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+}
