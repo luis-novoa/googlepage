@@ -1,0 +1,1 @@
+This project has the objective of helping me develop and practice my skills on HTML and CSS. After completed, I may update this file with my final thoughts of what I achieved with this.
