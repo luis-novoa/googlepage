@@ -8,6 +8,11 @@ html {
     width: 100%;
 }
 
+.B {
+    padding-top: 15%;
+    padding-left: 40%;
+}
+
 .a {
     display: inline-block;
 }
