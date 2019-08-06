@@ -1,16 +1,17 @@
 html {
     height: 100%;
     width: 100%;
+    font-family: Helvetica, sans-serif;
 }
 
 .A {
     float:right;
     width: 100%;
+    display: block;
 }
 
 .B {
-    padding-top: 15%;
-    padding-left: 40%;
+    margin: auto auto;
 }
 
 .a {
@@ -56,6 +57,10 @@ footer {
     padding-bottom: 0;
 }
 
+img {
+    vertical-align: middle;
+}
+
 ul {
     display: inline;
     float: right;
@@ -63,4 +68,5 @@ ul {
 
 li {
     display: inline;
+    padding: 0 10px;
 }
