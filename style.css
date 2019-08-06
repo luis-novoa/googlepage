@@ -1,21 +1,27 @@
+html {
+    height: 100%;
+    width: 100%;
+}
 .left {
     padding-left: 0;
     float:left;
+    width: 50%;
 }
 
 .middle {
     display: inline-block;
     width: 100%;
-    padding: 10% 30%;
 }
 
 .right {
     float: right;
+    width: 50%;
 }
 
 .upper {
     float: right; 
 }
+
 
 footer {
     margin-bottom: 0;
@@ -24,7 +30,6 @@ footer {
 
 ul {
     display: inline-block;
-    margin: 0 auto;
 }
 
 li {
