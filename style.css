@@ -2,14 +2,18 @@ html {
     height: 100%;
     width: 100%;
 }
+
 .left {
     padding-left: 0;
     float:left;
     width: 50%;
 }
 
+.grid {
+    display: grid;
+}
+
 .middle {
-    display: inline-block;
     width: 100%;
 }
 
@@ -22,8 +26,12 @@ html {
     float: right; 
 }
 
+body {
+    display: grid;
+}
 
 footer {
+    display: grid;
     margin-bottom: 0;
     padding-bottom: 0;
 }
