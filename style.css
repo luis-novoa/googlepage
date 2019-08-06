@@ -3,14 +3,19 @@ html {
     width: 100%;
 }
 
+.A {
+    float:right;
+    width: 100%;
+}
+
 .a {
     display: inline-block;
-    width: 49%;
 }
 
 #b {
     float: right;
 }
+
 
 .left {
     padding-left: 0;
@@ -20,7 +25,7 @@ html {
 
 .grid {
     display: grid;
-    grid-template-rows: 1fr 34.5fr 1fr 1fr;
+    grid-template-rows: 1fr 19fr 1fr 1fr;
 }
 
 .middle {
@@ -47,9 +52,10 @@ footer {
 }
 
 ul {
-    display: inline-block;
+    display: inline;
+    float: right;
 }
 
 li {
-    display: inline-block;
+    display: inline;
 }
