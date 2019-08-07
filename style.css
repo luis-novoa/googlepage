@@ -94,24 +94,9 @@ a:hover {
     margin-right: 20px;
 }
 
-.left {
-    padding-left: 0;
-    float:left;
-    width: 50%;
-}
-
 .grid {
     display: grid;
     grid-template-rows: 1fr 11fr 1fr 1fr;
-}
-
-.middle {
-    width: 100%;
-}
-
-.right {
-    float: right;
-    width: 50%;
 }
 
 .search, .search:focus {
@@ -124,12 +109,6 @@ a:hover {
 .op {
     opacity: 0.5;
 }
-
-.upper {
-    float: right; 
-}
-
-
 
 h2 input {
     background-color: hsla(0, 0%, 0%, 0.05);
@@ -151,12 +130,6 @@ h2 input:hover{
 
 body {
     display: grid;
-}
-
-footer {
-    display: grid;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
 
 img {
