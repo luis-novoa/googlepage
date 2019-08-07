@@ -2,6 +2,7 @@ html {
     height: 100%;
     width: 100%;
     font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 .A {
@@ -12,10 +13,16 @@ html {
 
 .B {
     margin: auto auto;
+    text-align: center;
 }
 
 h1 {
-    padding: 30px 0;
+    margin: 30px 0;
+    width: fit-content;
+    border: solid hsla(0, 0%, 100%, 0) thin;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    padding: 0 10px;
 }
 
 .a {
@@ -26,6 +33,10 @@ h1 {
     float: right;
 }
 
+#google {
+    display: inline-block;
+    margin: 0 auto;
+}
 
 .left {
     padding-left: 0;
@@ -45,6 +56,13 @@ h1 {
 .right {
     float: right;
     width: 50%;
+}
+
+.search, .search:focus {
+    border: hidden;
+    outline: none;
+    height: 40px;
+    width: 400px;
 }
 
 .upper {
